@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Daily Fitness Challenge
 
 This is a web application that provides a new fitness challenge every day to help users stay active and motivated.
@@ -13,3 +14,6 @@ This is a web application that provides a new fitness challenge every day to hel
 - HTML
 - CSS
 - JavaScript
+=======
+# FitnessDailyChallenge
+>>>>>>> 83d88e4a27a4243775458433973c50367cc6896c
