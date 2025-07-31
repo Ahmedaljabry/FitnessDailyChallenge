@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Fitness Challenge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">FitChallenge</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="challenges.html">Challenges</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="challenge">
+            <h2>Today's Challenge</h2>
+            <div id="challenge-container">
+                <p>Loading challenge...</p>
+            </div>
+            <div class="challenge-actions">
+                <button id="complete-challenge"><i class="fas fa-check"></i> Mark as Complete</button>
+                <button id="reroll-challenge"><i class="fas fa-sync-alt"></i> Reroll Challenge</button>
+            </div>
+        </section>
+
+        <section id="progress">
+            <h2>Your Progress</h2>
+            <div id="progress-container">
+                <p>You have completed 0 challenges.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; AHMED AL-JABERI 2025 Daily Fitness Challenge. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
